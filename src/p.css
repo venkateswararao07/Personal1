@@ -1,0 +1,294 @@
+/* h1{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: gray;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-left-style: dashed;
+    border-bottom-style: groove;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px; 
+    height: 50px; 
+    width: 50%;
+    outline: dotted;
+    outline-width: 2px;
+    outline-color: blue;
+    outline-offset: 15px;
+    color: green;
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: green;
+}
+
+.a{
+    list-style-type: circle;
+}
+.b{
+    list-style-type: square;
+}
+.c{
+    list-style-type:  upper-roman;
+
+}
+.d{
+    list-style-type: lower-alpha;
+}
+table{
+    width: 100%;
+}
+th{
+    height: 20px;
+}
+
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 1005;
+}
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    padding: 10px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover{background-color: #ddd;}
+
+#customers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: beige;
+    color: #000;
+    text-align: center;
+}
+h2{
+    visibility: hidden;
+}
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.sticky{
+    position: sticky;
+}
+.absolute{
+    position: absolute;
+}
+img{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: -1;
+}
+.overflow{
+    overflow: scroll;
+}
+
+.nav{
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.a{
+    background-color: yellow;
+}
+
+p::first-line {
+    color: gold;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: red;
+    font-variant: small-caps;
+}
+
+p.intro::first-letter {
+    color: red;
+    font-variant: small-caps;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+li a{
+    display: block;
+    width: 60px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    max-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  a[target]{
+    background-color: yellow;
+  }
+  .input1{
+    width: 100%;
+    padding: 10px 10p;
+    margin: 10px 10px 10px 10px;
+    border: 10px 10px 10px 10p;
+  } */
+
+
+  /* #rcorners1{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  #rcorners3 {
+    border-radius: 25px;
+    background: url('https://d2o2d07mcokwyq.cloudfront.net/app/uploads/2020/09/08145740/Domcake-Dancing-Alien.gif');
+
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  #borderimg{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://img.freepik.com/free-vector/decorative-border_1048-11718.jpg?w=2000) 30 stretch
+  } */
+
+/* 
+  #borderimg1{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(https://www.freeiconspng.com/thumbs/borders-png/borders-png-1.png) 30% round;
+  } */
+
+  /* #grad1 {
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+  } */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+}
+
+div:hover{
+    height: 300px;
+    width: 300px;
+} */
+
+/* div{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    transition: width 2s;
+}
+
+#div1{
+    transition-timing-function: linear;
+    transition-delay: 10s;
+    transition-property: width;
+    transition-duration: 10s;
+    
+}
+#div2{
+    transition-timing-function: ease;
+    transition-delay: 9s;
+    
+}
+#div3{
+    transition-timing-function: ease-in;
+    transition-delay: 8s;
+    
+}
+#div4{
+    transition-timing-function: ease-out;
+    transition-delay: 7s;
+    
+}
+#div5{
+    transition-timing-function: ease-in-out;
+    transition-delay: 6s;
+    
+}
+div:hover{
+    width: 300px;
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: venkey;
+    animation-duration: 10s;
+ 
+    animation-iteration-count: 3;
+}
+
+@keyframes venkey{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+
+}

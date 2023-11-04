@@ -1,0 +1,7 @@
+export const BUY_LAPTOP = "BUY_LAPTOP";
+
+ export const FETCH_USERS_REQUEST="FETCH_USER_REQUEST";
+ 
+ export const FETCH_USERS_SUCESS="FETCH_USER_SUCESS";
+ 
+ export const FETCH_USERS_FAIL="FETCH_USER_FAIL";
